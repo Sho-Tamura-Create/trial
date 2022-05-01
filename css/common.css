@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*import*/
+@import url(./reset.css);
+
+/*--------*/
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.sp {display: block;}
+.pc {display: none;}
+
+#wrapper
+{
+    overflow: hidden;
+
+    font-size: 62.5%;
+    width: 100%;
+    max-width: 750px;
+    background-color: #ffffff;
+    color: #000000;
+
+    margin: 0 auto;
+    position: relative;
+
+    -webkit-text-size-adjust: 100%;
+    font-family: "メイリオ", "meiryo", "Lucida Grande", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Geneva, Arial, Verdana, sans-serif, "YuGothic", "游ゴシック", "ヒラギノ角ゴ Std W2", "ms pgothic", "ms pゴシック", "osaka";
+}
+
+.sel_box {
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    width: 96%;
+    margin: 10% auto;
+    overflow: hidden;
+}
+.sel_box ul { 
+    box-sizing: border-box;
+    border-bottom: 1px solid #CCCCCC;
+
+    display: flex;
+
+}
+.sel_box .ttl {
+    width: 50%;
+    padding: 0.5% 0;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+.sel_box .ttl.act {
+    background: #666666;
+    color: #ffffff;
+}
+.sel_box .content_box {
+    width: 98%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+.sel_box .content_box input {
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1.5%;
+}
+
+@media screen and (min-width: 768px) {
+    .sp {display: none;}
+    .pc {display: block;}
+
+
+}
+
+@media screen and (min-width:768px) and ( max-width:1023px) {
+
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
